@@ -71,13 +71,18 @@ input{
 
 form{
     padding: 10px 0px 10px 0px;
-    background-color: white;
-    box-shadow: 2px 3px 5px grey;
     display: flex;
     flex-direction: column;
     align-self: center;
     
+    
 
+}
+
+#form-questions{
+    background-color: white;
+    box-shadow: 2px 3px 5px grey;
+    margin-bottom: 20px;
 }
 
 fieldset{
@@ -96,7 +101,16 @@ button{
     border: 2px rgb(0, 77, 19) solid;
     border-radius: 0.5em;
     padding: 5px 5px;
+    width: 7.2rem;
     margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: rgb(0, 102, 26);
+}
+
+button:active{
+    background-color: rgb(0, 228, 57)
 }
 
 strong{
