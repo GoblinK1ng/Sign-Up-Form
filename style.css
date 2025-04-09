@@ -1,3 +1,10 @@
 *{
     margin: 0;
 }
+
+body{
+    display: flex;
+    background-image: url(jared-murray-NSuufgf-BME-unsplash.jpg);
+}
+
+
