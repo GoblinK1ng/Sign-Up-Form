@@ -25,7 +25,7 @@ body{
 
 .logo{
     position: relative;
-    bottom: 50px;
+    bottom: 100px;
     font-family: 'florida_vibesregular';
     white-space: nowrap;
     font-size: 5rem;
@@ -34,7 +34,9 @@ body{
     align-items: center;
     justify-content: center;
     background-color: rgba(0,0,0, 0.3);
-    flex-grow: 1;
+
+    padding: 0px 50px;
+    height: 130px;
     
 }
 
@@ -50,7 +52,7 @@ body{
     gap: 32px;
     height: 100vh;
     background-color: rgb(248, 248, 248);
-    flex-grow: 2;
+    
 }
 
 input, label{
@@ -84,6 +86,19 @@ fieldset{
     border: 0px;
 }
 
-#description, fieldset{
-    padding-left: 40px;
+#description, fieldset, button, p{
+    margin-left: 40px;
+}
+
+button{
+    color:white;
+    background-color: rgb(0, 77, 19);
+    border: 2px rgb(0, 77, 19) solid;
+    border-radius: 0.5em;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+}
+
+strong{
+    color: rgb(0, 77, 19);
 }
