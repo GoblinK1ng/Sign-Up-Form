@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'florida_vibesregular';
+    src: url('fonts/florida_vibes_by_turbologo-webfont.woff2') format('woff2'),
+         url('fonts/florida_vibes_by_turbologo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
     margin: 0;
 }
@@ -15,6 +24,10 @@ body{
 }
 
 .logo{
+    font-family: 'florida_vibesregular';
+    white-space: nowrap;
+    font-size: 5rem;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,8 +36,13 @@ body{
     
 }
 
+#logo-name{
+    padding-top: 30px;
+}
+
 .sign-up{
     height: 100vh;
     background-color: white;
     flex-grow: 2;
 }
+
