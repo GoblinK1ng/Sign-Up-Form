@@ -41,11 +41,14 @@ body{
 }
 
 .sign-up{
+    
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 32px;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(248, 248, 248);
     flex-grow: 2;
 }
 
@@ -53,9 +56,32 @@ input, label{
     display: block;
 }
 
+label{
+    font-size: 0.7rem;
+}
+
+input{
+    border-radius: 0.2em;
+}
+
+
+
+form{
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+    box-shadow: 2px 3px 5px grey;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
 fieldset{
     display: flex;
-    justify-content: space-evenly;
+    gap: 60px;
     border: 0px;
 }
 
+#description, fieldset{
+    padding-left: 20px;
+}
