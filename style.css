@@ -41,8 +41,21 @@ body{
 }
 
 .sign-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100vh;
     background-color: white;
     flex-grow: 2;
+}
+
+input, label{
+    display: block;
+}
+
+fieldset{
+    display: flex;
+    justify-content: space-evenly;
+    border: 0px;
 }
 
