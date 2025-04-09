@@ -14,4 +14,17 @@ body{
     background-image: url(jared-murray-NSuufgf-BME-unsplash.jpg);
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0, 0.3);
+    flex-grow: 1;
+    
+}
 
+.sign-up{
+    height: 100vh;
+    background-color: white;
+    flex-grow: 2;
+}
