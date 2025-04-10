@@ -82,16 +82,18 @@ form{
 #form-questions{
     background-color: white;
     box-shadow: 2px 3px 5px grey;
-    margin-bottom: 20px;
+    padding: 20px 0px;
+    margin-bottom: 50px;
 }
 
 fieldset{
     display: flex;
     gap: 60px;
     border: 0px;
+    padding-left: 2px;
 }
 
-#description, fieldset, button, p{
+#description, fieldset, button, p, h4{
     margin-left: 40px;
 }
 
@@ -100,8 +102,8 @@ button{
     background-color: rgb(0, 77, 19);
     border: 2px rgb(0, 77, 19) solid;
     border-radius: 0.5em;
-    padding: 5px 5px;
-    width: 7.2rem;
+    padding: 10px 15px;
+    width: 9rem;
     margin-bottom: 20px;
 }
 
@@ -116,3 +118,4 @@ button:active{
 strong{
     color: rgb(0, 77, 19);
 }
+
