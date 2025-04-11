@@ -64,7 +64,8 @@ label{
 }
 
 input{
-    border-radius: 0.2em;
+    border-radius: 4px;
+    border: 1px solid #E5E7EB;
 }
 
 
@@ -81,7 +82,7 @@ form{
 
 #form-questions{
     background-color: white;
-    box-shadow: 2px 3px 5px grey;
+    box-shadow: 2px 3px 30px rgba(128, 128, 128, 0.205);
     padding: 20px 0px;
     margin-bottom: 50px;
 }
@@ -118,4 +119,21 @@ button:active{
 strong{
     color: rgb(0, 77, 19);
 }
+
+
+
+
+input:required:user-invalid{
+    outline: 2px solid red;
+}
+
+input:valid{
+    outline: 2px solid green;
+}
+
+input:focus{
+    outline: 2px solid blue;
+    box-shadow: 3px 0px 5px rgba(0, 0, 0, 0.555);
+}
+
 

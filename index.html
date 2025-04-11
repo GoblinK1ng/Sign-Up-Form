@@ -24,32 +24,32 @@
                 <h4>Account Information</h4>
                 <fieldset>
                     <div>
-                        <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name">
+                        <label for="first_name" required>FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name" required>
                     </div>
                     <div>
-                        <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name">
+                        <label for="last_name" required>LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name" required>
                     </div>
                 </fieldset>
                 <fieldset>
                     <div>
                         <label for="mail">EMAIL</label>
-                        <input type="text">
+                        <input type="email" id="mail" name="mail" required>
                     </div>
                     <div>
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="text">
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
                     </div>
                 </fieldset>
                     <fieldset>
                     <div>
-                        <label for="password">PASSWORD</label>
-                        <input type="text">
+                        <label for="password" required>PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
                     </div>
                     <div>
-                        <label for="password">CONFIRM PASSWORD</label>
-                        <input type="text">
+                        <label for="password_confirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="password_confirm" name="password_confirm" required>
                     </div>
                 
                 </fieldset>
